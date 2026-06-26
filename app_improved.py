@@ -11,7 +11,7 @@ load_dotenv()
 api_key = os.getenv("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")
 
 # Инициализация Groq клиента
-client = Groq(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)
+client = Groq(api_key="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")
 
 # Page configuration
 st.set_page_config(

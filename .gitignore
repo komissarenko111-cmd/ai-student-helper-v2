@@ -1,0 +1,91 @@
+# Окружение
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+
+# Логи
+*.log
+logs/
+
+# БД
+*.db
+*.sqlite
+*.sqlite3
+
+# Кэш
+.cache/
+__pycache__/
+*.cache
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Проект
+.temp/
+temp/
+*.bak
+*.tmp
+*.swp
+
+# React build
+build/
+dist/
+.next/
+
+# Зависимости (если нужно для быстрого клонирования)
+# Раскомментируйте если нужно:
+# *.egg-info/
+# dist/
+# build/
+
+# Пользовательские файлы
+local_config.py
+user_data/
+uploads/
+downloads/

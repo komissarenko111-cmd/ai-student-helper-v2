@@ -10,19 +10,6 @@ load_dotenv()
 # Получаем API ключ из переменных окружения
 api_key = os.getenv("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")
 
-# Проверяем наличие API ключа
-if not api_key:
-    st.error("""
-    ❌ Ошибка: GROQ_API_KEY не найден!
-    
-    Пожалуйста:
-    1. Создайте файл `.env` в корне проекта
-    2. Добавьте строку: GROQ_API_KEY=ваш_ключ
-    3. Получите ключ на https://console.groq.com
-    4. Перезагрузите приложение
-    """)
-    st.stop()
-
 # Инициализация Groq клиента
 client = Groq(api_key=api_key)
 

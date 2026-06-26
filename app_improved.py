@@ -11,6 +11,7 @@ load_dotenv()
 api_key = os.getenv("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")
 
 # Проверяем наличие API ключа
+if not api_key:
     st.error("""
     ❌ Ошибка: GROQ_API_KEY не найден!
     
